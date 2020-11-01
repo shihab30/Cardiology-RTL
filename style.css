@@ -1,0 +1,379 @@
+/* ----------------------------------------------------------------
+	De CSS
+-----------------------------------------------------------------*/
+
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+	overflow-x: hidden;
+}
+/*Topbar css start
+----------------------------------------------------------------*/
+.topnav{
+	background-color: #ffffff;
+	border-bottom: 1px solid #f5f7fa;
+}
+
+.mob1 ul{
+	float: right;
+}
+
+.topnav ul li a{
+	color: #292828;
+	font-size: 12px;
+	/*margin-right: 12px;*/
+}
+/*Topbar css End
+----------------------------------------------------------------*/
+/*Manu css start
+----------------------------------------------------------------*/
+.mynav{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.mynav ul{
+	margin-left: 20px;
+}
+.mynav ul a {
+	margin-left: 20px;
+	color:  #635f5f;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+/*.mynav ul a i{
+	border: 1px solid #D42C2C
+	color:#D42C2C;
+}*/
+.mynav ul a:hover{
+	color:  #077BC2;
+	border-bottom: 1px solid #077BC2;
+}
+
+.mynav button i{
+	color:  #077BC2;
+}
+/*Manu css End
+----------------------------------------------------------------*/
+/*Slider css Start
+----------------------------------------------------------------*/
+.carousel-indicators li {
+	background-color: #077BC2;
+	background-clip: border-box;
+	border-radius: 30%;
+	margin-bottom: 20px;
+}
+.carousel-caption {
+	padding-bottom: 150px;
+	margin-left: 200px;
+}
+.bg-1{
+	background-image: url('img/Background/bg4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 200px;
+	padding-bottom: 120px;
+}
+.bg-2{
+	background-image: url('img/Background/bg3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 200px;
+	padding-bottom: 120px;
+}
+.bg-3{
+	background-image: url('img/Background/bg2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 200px;
+	padding-bottom: 120px;
+}
+.bg-4{
+	background-image: url('img/Background/bg1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 200px;
+	padding-bottom: 120px;
+}
+.my-btn{
+	background-color: #000000;
+	font-size: 18px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 20px;
+	margin-top: 20px;
+}
+.my-btn:hover{
+	background-color: #077BC2;
+}
+
+.he{
+	color: #077BC2;
+}
+.cr{
+	color: #077BC2;
+}
+.creat{
+	color: #000000;
+}
+/*Slide css end
+----------------------------------------------------------------*/
+/*service css start
+----------------------------------------------------------------*/
+.serviec{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #F5F0F0;
+}
+.serviec a{
+	text-decoration: none;
+}
+.serviec h4:hover{
+	color: #077BC2;
+}
+.serviec h1{
+	color: #077BC2;
+}
+.serviec p{
+	font-size: 18px;
+}
+/*service css end
+----------------------------------------------------------------*/
+/*Shedule css Start
+----------------------------------------------------------------*/
+.time{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.time h1{
+	color: #077BC2;
+}
+.shedule{
+	background-color: #077BC2;
+	border-radius: 20px;
+}
+.shedule01{
+	color: #ffffff;
+}
+.shedule02{
+	color: #ffffff;
+}
+.view{
+	border-radius: 10px;
+	height: 60px;
+}
+.view:hover{
+	background-color: #23A3DC;
+	color: #ffffff;
+}
+.Appoinment{
+	background-color: #077BC2;
+	border-radius: 20px;
+}
+.as{
+	 font-size: 2.5rem
+}
+.Appoinment01{
+	color: #ffffff;
+}
+.am:hover{
+	background-color: #23A3DC;
+	color: #ffffff;
+}
+/*Shedule css End
+----------------------------------------------------------------*/
+/*Health care css Start
+----------------------------------------------------------------*/
+.cares{
+	background-image: url('img/Ceo/head.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.doc{
+	height: 500px;
+	position: absolute;
+}
+.lw{
+	color: #ffffff;
+}
+.ls{
+	border-radius: 25px;
+}
+.lw:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+.ce{
+	font-weight: bold;
+	color: #077BC2;
+}
+/*Health care css End
+----------------------------------------------------------------*/
+/*Team css Start
+----------------------------------------------------------------*/
+.team{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.team a{
+	text-decoration: none;
+	color: #077BC2;
+}
+.team h1{
+	color: #077BC2;
+}
+.team01{
+	border: none;
+}
+/*Team css Start
+----------------------------------------------------------------*/
+/*We Start
+----------------------------------------------------------------*/
+.some{
+	background-image: url('img/some/Measuring Blood Pressure.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+.have{
+	color: #077BC2;
+}
+/*We End
+----------------------------------------------------------------*/
+/*Testimonials Start
+----------------------------------------------------------------*/
+.Testimonials{
+	background-color: #F5F0F0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.Testimonials h1{
+	color: #077BC2;
+}
+/*Testimonials End
+----------------------------------------------------------------*/
+/*Articles css Start
+----------------------------------------------------------------*/
+.ns{
+	height: 250px;
+}
+.ds{
+	color: #077BC2;
+}
+.ds:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+.dt{
+	position: absolute;
+	margin-top: 220px;
+}
+.ju{
+	font-size: 22px;
+	font-weight: bold;
+}
+.de{
+	border-radius: 20px;
+}
+.ours{
+	color: #077BC2;
+}
+/*Articles css End
+----------------------------------------------------------------*/
+/*Footer css Start
+----------------------------------------------------------------*/
+.foot{
+	background-color: #000000;
+}
+.are{
+	color: #ffffff;
+}
+.our{
+	color: #ffffff;
+	border-bottom: 2px solid #ffffff;
+}
+.quis{
+	color: #ffffff;
+	border-bottom: 2px solid #ffffff;
+}
+.cus{
+	color: #ffffff;
+	border-bottom: 2px solid #ffffff;
+}
+.tg{
+	color: #ffffff;
+}
+.tg:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+.sc{
+	background-color: #ffffff;
+	border-radius:50%;
+}
+.al{
+	color: #000000;
+}
+.al:hover{
+	color: #000000;
+}
+.su{
+	color: #ffffff;
+}
+.su:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+/*Footer css End
+----------------------------------------------------------------*/
+
+/*Copyright css Start
+----------------------------------------------------------------*/
+.copy{
+	background-color: #2E3037;
+}
+.shihab{
+	color: #ffffff;
+	font-weight: bold;
+}
+/*Copyright css End
+----------------------------------------------------------------*/
+
+/*-----------------
+Full Responsive Strat
+----------------------------------------------------------------*/
+@media screen and (max-width: 578px){
+
+	.mob ul{
+		width: auto;
+		margin: auto;
+	}
+
+	.mob ul li{
+		margin: auto;
+	}
+
+	.mob1 ul{
+		width: auto;
+		margin: auto;
+		float: none;
+	}
+
+	.mob1 ul li{
+		margin: auto;
+	}
+
+	.mynav ul{
+		margin-left: 0px;
+	}
+}
